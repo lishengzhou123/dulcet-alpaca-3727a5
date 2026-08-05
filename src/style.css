@@ -1,0 +1,53 @@
+:root {
+  font-family: 'PingFang SC', 'Microsoft YaHei', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: #e8eef7;
+  background-color: #0a0f17;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at top, rgba(67,181,129,0.08), transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(52,152,219,0.06), transparent 60%),
+    #0a0f17;
+  background-attachment: fixed;
+}
+
+#app {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+a { color: #43b581; text-decoration: none; }
+a:hover { color: #2ecc71; }
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+h1, h2, h3 { margin: 0; }
+
+/* 自定义滚动条 */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #0f1620; }
+::-webkit-scrollbar-thumb { background: #2a3950; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #3a4960; }
+
+input[type="range"] { width: 100%; }
+select option { background: #0c121b; color: #e8eef7; }
