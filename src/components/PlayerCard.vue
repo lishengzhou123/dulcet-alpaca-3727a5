@@ -14,7 +14,7 @@ const props = defineProps({
   player: { type: Object, required: true },
   variant: { type: String, default: '' }, // 自动根据 OVR 判断
   size: { type: String, default: 'normal' }, // normal / small / wide
-  showTeam: { type: Boolean, default: true },
+  showTeam: { type: Boolean, default: true  },
   showStats: { type: Boolean, default: true },
   isNation: { type: Boolean, default: false }, // 是否国家队卡片
 })
